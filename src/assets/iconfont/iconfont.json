@@ -1,0 +1,16 @@
+{
+  "id": "1930837",
+  "name": "echarts",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9155953",
+      "name": "theme",
+      "font_class": "theme",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    }
+  ]
+}

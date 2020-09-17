@@ -1,0 +1,50 @@
+.chartImgContainer {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chartImgItem {
+    position: relative;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+    height: 100px;
+    width: calc(50% - 10px);
+    background-color: white;
+    overflow: hidden;
+
+}
+
+.flex{
+    /*flex 布局*/
+    display: flex;
+    /*实现垂直居中*/
+    align-items: center;
+    /*实现水平居中*/
+    justify-content: center;
+
+    text-align: justify;
+    width:200px;
+    height:200px;
+    background: #000;
+    margin:0 auto;
+    color:#fff;
+}
+
+.chartCover {
+    width: 100%;
+}
+
+.chartTitle {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    background-image: linear-gradient(to right,#FFFFFF, #C8C8C8,#FFFFFF);;
+    position: absolute;
+    width: calc(100% - 10px);
+    bottom: -15px;
+    height: 20px;
+    line-height: 20px;
+}
